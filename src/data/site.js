@@ -1,11 +1,11 @@
 export const mapUrl = 'https://maps.google.com/?q=%D0%9C%D1%81%D1%82%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D1%86%D0%B0+10+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'
 
 export const media = {
-  exterior: '/images/arka-entrance.png',
-  hall: '/images/hall-ceiling.png',
-  room: '/images/arched-windows.png',
-  communication: '/images/space-gathering.png',
-  gathering: '/images/space-gathering.png',
+  exterior: 'images/arka-entrance.png',
+  hall: 'images/hall-ceiling.png',
+  room: 'images/arched-windows.png',
+  communication: 'images/space-gathering.png',
+  gathering: 'images/space-gathering.png',
 }
 
 export const roomLayouts = [
@@ -13,16 +13,16 @@ export const roomLayouts = [
     id: 'empty',
     label: 'Пустой зал',
     text: 'Свободная площадь: так зал выглядит до расстановки.',
-    image: '/images/room-layout-empty.jpg',
-    video: '/videos/room-layout-empty.mp4',
+    image: 'images/room-layout-empty.jpg',
+    video: 'videos/room-layout-empty.mp4',
     alt: 'Пустой зал АРКА 123 с арочными окнами',
   },
   {
     id: 'masterclass',
     label: 'Мастер-класс или семинар',
     text: 'Экран и ряды стульев для групповых обсуждений: так зал выглядит после расстановки',
-    image: '/images/room-layout-masterclass.jpg',
-    video: '/videos/room-layout-masterclass-seminar.mp4',
+    image: 'images/room-layout-masterclass.jpg',
+    video: 'videos/room-layout-masterclass-seminar.mp4',
     alt: 'Зал АРКА 123 в расстановке для мастер-класса и семинара',
   },
 ]
@@ -57,25 +57,25 @@ export const reviews = [
   {
     name: 'Марина',
     role: 'Мастер-класс',
-    photo: '/images/review-marina.png',
+    photo: 'images/review-marina.png',
     text: 'Свет из арочных окон и свободная рассадка помогли спокойно провести занятие для небольшой группы.',
   },
   {
     name: 'Алина',
     role: 'Встреча команды',
-    photo: '/images/review-alina.png',
+    photo: 'images/review-alina.png',
     text: 'Отдельный зал напротив Библиотеки оказался удобным местом, чтобы собраться и спокойно обсудить планы.',
   },
   {
     name: 'Павел',
     role: 'Семинар',
-    photo: '/images/review-pavel.jpg',
+    photo: 'images/review-pavel.jpg',
     text: 'Общий стол и экран легко настроили под разговор: гости быстро ориентировались и не терялись в пространстве.',
   },
   {
     name: 'Игорь',
     role: 'Мастер-класс',
-    photo: '/images/review-igor.png',
+    photo: 'images/review-igor.png',
     text: 'Зал легко найти, а пустая площадь до рассадки дала свободу собрать сценарий под свою группу.',
   },
 ]
