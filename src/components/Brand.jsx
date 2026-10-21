@@ -27,7 +27,7 @@ function BrandLogo({ light = false }) {
 }
 
 function BrandCharacter({ className = '' }) {
-  return <img className={`brand-character ${className}`} src="/images/anna-arka-interior.jpg" alt="Анна — фирменный персонаж АРКА 123" />
+  return <img className={`brand-character ${className}`} src="images/anna-arka-interior.jpg" alt="Анна — фирменный персонаж АРКА 123" />
 }
 
 function Loader() {
