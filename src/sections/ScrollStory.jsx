@@ -195,8 +195,8 @@ function ScrollStory() {
         <video
           ref={videoRef}
           className="scroll-story__video"
-          src="/videos/anna-welcome.mp4"
-          poster="/images/anna-arka-interior.jpg"
+          src="videos/anna-welcome.mp4"
+          poster="images/anna-arka-interior.jpg"
           muted
           playsInline
           preload="auto"
